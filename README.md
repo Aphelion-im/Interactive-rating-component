@@ -1,4 +1,4 @@
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/eabeb392-76f1-49fb-a1f7-ec9c97e8e928/deploy-status)](https://app.netlify.com/sites/aphelion-interactive-rating-component/deploys)
 # Frontend Mentor - Interactive rating component solution
 
 This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github repo](https://github.com/Aphelion-im/Interactive-rating-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub repo](https://github.com/Aphelion-im/Interactive-rating-component)
+- Live Site URL: [Live demo Interactive rating component](https://aphelion-interactive-rating-component.netlify.app)
 
 ## My process
 
