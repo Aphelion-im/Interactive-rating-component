@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Rating Component</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+</head>
+
+<body>
+
+<!-- Rating component -->
+<main class="rating-component">
+    <div class="star-icon">
+        <img src="./assets/images/icon-star.svg" alt="Icon of a star">
+    </div>
+    <h1>How did we do?</h1>
+    <p>Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!</p>
+    <ul>
+        <li data-value="1">1</li>
+        <li data-value="2">2</li>
+        <li data-value="3">3</li>
+        <li data-value="4">4</li>
+        <li data-value="5">5</li>
+    </ul>
+    <button type="button">Submit</button>
+</main>
+
+<!-- Result component -->
+<article class="result-component hidden">
+    <div class="thank-you">
+        <img src="./assets/images/illustration-thank-you.svg" alt="Image of a tablet">
+    </div>
+    <p class="final-result">You selected 4 out of 5</p>
+    <h2>Thank you!</h2>
+    <p>We appreciate you taking the time to give a rating. If you ever need more support,
+        don’t hesitate to get in touch!</p>
+</article>
+<footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a target="_blank" href="https://github.com/Aphelion-im">Aphelion-im</a>.
+</footer>
+
+<script type="module" src="./main.js"></script>
+</body>
+</html>
