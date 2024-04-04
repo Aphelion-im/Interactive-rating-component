@@ -104,7 +104,6 @@ button {
 .rating-component,
 .result-component {
   border-radius: 2rem;
-  background-color: #222933;
   width: 90%;
   padding: 2rem 2rem 3rem 2rem;
   display: flex;
@@ -113,6 +112,8 @@ button {
   align-items: center;
   gap: 1.5rem;
   max-width: 380px;
+  background: rgb(23,30,40);
+  background: linear-gradient(0deg, rgba(23,30,40,1) 0%, rgba(35,42,52,1) 100%);
 
   .star-icon {
     width: 38px;
@@ -148,7 +149,7 @@ button {
 
     &:hover {
       background-color: $clr-white;
-      color: $clr-orange
+      color: $clr-orange;
     }
   }
 
@@ -226,4 +227,3 @@ button {
     text-align: center;
   }
 }
-
